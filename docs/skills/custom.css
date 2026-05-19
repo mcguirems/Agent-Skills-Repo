@@ -8,8 +8,6 @@
   --fs-rule: rgba(17, 17, 17, 0.1);
   --fs-link: #111111;
   --fs-link-hover: #666666;
-  --fs-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Monaco,
-    Consolas, "Liberation Mono", "Courier New", monospace;
   --fs-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
 }
@@ -66,15 +64,22 @@ a:hover {
 
 .layout-inner {
   align-items: flex-start;
+  column-gap: 1.5rem !important;
+}
+
+.layout-inner-left {
+  flex: 0 0 13rem !important;
+  max-width: 13rem !important;
 }
 
 .layout-inner-center {
   max-width: 100% !important;
+  flex: 1 1 auto !important;
 }
 
 .page-main {
   max-width: 66ch !important;
-  margin: 0 auto !important;
+  margin: 0 !important;
   padding: 2rem 1.25rem 5rem !important;
 }
 
@@ -94,7 +99,7 @@ a:hover {
 }
 
 .page-header-description {
-  font-family: var(--fs-mono) !important;
+  font-family: var(--fs-sans) !important;
   font-size: 12px !important;
   line-height: 20px !important;
   text-transform: uppercase;
@@ -184,7 +189,7 @@ a:hover {
 #mdxpage pre,
 #mdxpage kbd,
 #mdxpage samp {
-  font-family: var(--fs-mono) !important;
+  font-family: var(--fs-sans) !important;
 }
 
 #mdxpage code {
@@ -241,7 +246,7 @@ a:hover {
 .site-tree-item-self,
 .site-footer-publication-name,
 .site-footer-copyright {
-  font-family: var(--fs-mono) !important;
+  font-family: var(--fs-sans) !important;
 }
 
 .site-subnav,
@@ -270,6 +275,7 @@ a:hover {
 
 .site-sidebar {
   padding-top: 2rem !important;
+  padding-right: 0.5rem !important;
 }
 
 .site-tree {
@@ -291,6 +297,15 @@ a:hover {
 }
 
 @media (max-width: 900px) {
+  .layout-inner {
+    column-gap: 0 !important;
+  }
+
+  .layout-inner-left {
+    flex: initial !important;
+    max-width: none !important;
+  }
+
   .page-main {
     padding: 1.5rem 1rem 4rem !important;
   }
