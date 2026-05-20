@@ -89,6 +89,13 @@ a:hover {
 
 .page-header {
   margin-bottom: 1.75rem !important;
+  max-width: 66ch !important;
+}
+
+.page-body,
+.rendered-mdx,
+#mdxpage {
+  max-width: 66ch !important;
 }
 
 .page-header-title,
@@ -115,6 +122,12 @@ a:hover {
 #mdxpage {
   color: var(--fs-text) !important;
   font-family: var(--fs-mono) !important;
+}
+
+.page-header-title,
+.page-header-description,
+.rendered-mdx > * {
+  max-width: 66ch !important;
 }
 
 #mdxpage p,
