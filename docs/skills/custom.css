@@ -70,15 +70,15 @@ a:hover {
 }
 
 .layout-inner-left {
-  flex: 0 0 30ch !important;
+  flex: 0 1 30ch !important;
   max-width: 30ch !important;
   width: 30ch !important;
-  min-width: 30ch !important;
 }
 
 .layout-inner-center {
   max-width: 100% !important;
   flex: 1 1 auto !important;
+  min-width: 0 !important;
 }
 
 .page-main {
