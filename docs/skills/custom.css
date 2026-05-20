@@ -65,19 +65,22 @@ a:hover {
 }
 
 .layout-inner {
-  align-items: flex-start;
+  display: grid !important;
+  grid-template-columns: 30ch minmax(0, 66ch) !important;
   column-gap: 1.5rem !important;
+  align-items: flex-start;
+  justify-content: center !important;
 }
 
 .layout-inner-left {
-  flex: 0 1 30ch !important;
+  grid-column: 1 !important;
   max-width: 30ch !important;
   width: 30ch !important;
 }
 
 .layout-inner-center {
+  grid-column: 2 !important;
   max-width: 100% !important;
-  flex: 1 1 auto !important;
   min-width: 0 !important;
 }
 
@@ -333,12 +336,18 @@ a:hover {
 
 @media (max-width: 900px) {
   .layout-inner {
+    display: block !important;
     column-gap: 0 !important;
   }
 
   .layout-inner-left {
-    flex: initial !important;
+    grid-column: auto !important;
     max-width: none !important;
+    width: auto !important;
+  }
+
+  .layout-inner-center {
+    grid-column: auto !important;
   }
 
   .page-main {
