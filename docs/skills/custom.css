@@ -340,6 +340,7 @@ a:hover {
   font-size: 12px !important;
   line-height: 20px !important;
   color: var(--fs-muted) !important;
+  white-space: nowrap !important;
 }
 
 #built-with-button {
