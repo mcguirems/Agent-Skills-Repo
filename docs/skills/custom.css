@@ -72,6 +72,8 @@ a:hover {
 .layout-inner-left {
   flex: 0 0 30ch !important;
   max-width: 30ch !important;
+  width: 30ch !important;
+  min-width: 30ch !important;
 }
 
 .layout-inner-center {
@@ -286,6 +288,11 @@ a:hover {
 .site-tree-item-self:hover,
 .site-subnav-breadcrumb-link:hover {
   color: var(--fs-text) !important;
+}
+
+.site-tree-item-self {
+  display: block !important;
+  white-space: nowrap !important;
 }
 
 .site-sidebar {
