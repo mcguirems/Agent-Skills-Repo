@@ -67,7 +67,7 @@ a:hover {
 
 .layout-inner {
   display: grid !important;
-  grid-template-columns: 30ch minmax(0, 66ch) !important;
+  grid-template-columns: 30ch minmax(0, 66ch) minmax(18ch, 22ch) !important;
   column-gap: 1.5rem !important;
   align-items: flex-start;
   justify-content: center !important;
@@ -84,6 +84,19 @@ a:hover {
   grid-column: 2 !important;
   max-width: 100% !important;
   min-width: 0 !important;
+}
+
+.layout-inner-right,
+.page-toc,
+.page-toc-container,
+.site-toc,
+.toc-container {
+  grid-column: 3 !important;
+  align-self: start !important;
+  position: sticky !important;
+  top: 2rem !important;
+  min-width: 18ch !important;
+  max-width: 22ch !important;
 }
 
 .page-main {
@@ -327,7 +340,7 @@ a:hover {
 }
 
 .site-footer-inner {
-  max-width: calc(30ch + 1.5rem + 66ch) !important;
+  max-width: calc(30ch + 1.5rem + 66ch + 1.5rem + 22ch) !important;
   margin: 0 auto !important;
   transform: translateX(-6ch) !important;
 }
@@ -336,11 +349,18 @@ a:hover {
   margin-left: calc(30ch + 1.5rem) !important;
 }
 
+.site-footer-publication-section {
+  width: max-content !important;
+  max-width: none !important;
+}
+
 .site-footer-copyright {
   font-size: 12px !important;
   line-height: 20px !important;
   color: var(--fs-muted) !important;
   white-space: nowrap !important;
+  width: max-content !important;
+  max-width: none !important;
 }
 
 #built-with-button {
@@ -362,6 +382,18 @@ a:hover {
 
   .layout-inner-center {
     grid-column: auto !important;
+  }
+
+  .layout-inner-right,
+  .page-toc,
+  .page-toc-container,
+  .site-toc,
+  .toc-container {
+    grid-column: auto !important;
+    position: static !important;
+    top: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
   }
 
   .page-main {
