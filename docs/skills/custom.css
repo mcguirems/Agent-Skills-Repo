@@ -70,8 +70,8 @@ a:hover {
 }
 
 .layout-inner-left {
-  flex: 0 0 13rem !important;
-  max-width: 13rem !important;
+  flex: 0 0 30ch !important;
+  max-width: 30ch !important;
 }
 
 .layout-inner-center {
@@ -98,6 +98,7 @@ a:hover {
   letter-spacing: -0.03em !important;
   color: var(--fs-text) !important;
   margin: 0 0 0.8rem !important;
+  max-width: 66ch !important;
 }
 
 .page-header-description {
@@ -145,6 +146,7 @@ a:hover {
   line-height: 1.35 !important;
   margin: 2.8rem 0 0.7rem !important;
   font-weight: 600 !important;
+  max-width: 66ch !important;
 }
 
 #mdxpage h3,
@@ -154,6 +156,7 @@ a:hover {
   font-size: 0.96rem !important;
   line-height: 1.35 !important;
   margin: 1.7rem 0 0.55rem !important;
+  max-width: 66ch !important;
 }
 
 #mdxpage ul,
@@ -205,7 +208,7 @@ a:hover {
 }
 
 #mdxpage code {
-  background: rgba(17, 17, 17, 0.82) !important;
+  background: rgba(17, 17, 17, 0.68) !important;
   color: #ffffff !important;
   border-radius: 3px !important;
   padding: 0.1rem 0.28rem !important;
