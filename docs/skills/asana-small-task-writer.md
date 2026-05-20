@@ -5,6 +5,10 @@ status: active
 
 # Asana Small Task Writer
 
+Source:
+- [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/asana-small-task-writer)
+- [Direct `SKILL.md`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/asana-small-task-writer/SKILL.md)
+
 ## Purpose
 
 `asana-small-task-writer` converts a scoped product or UX change into one implementation-ready Asana small task.

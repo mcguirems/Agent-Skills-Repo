@@ -1,13 +1,14 @@
 ---
-title: JUAREZ AGENT SKILLS REPO
+title: AGENT SKILLS REPO
 description: Human-facing documentation for installable agent skills.
 showToc: false
 ---
 
-# JUAREZ AGENT SKILLS REPO
+# AGENT SKILLS REPO
 
-This section contains the publishable documentation pages for individual skills.
+These are small, focused skill packages for Codex. Each one turns a specific task into a reusable workflow, and the same structure can usually be adapted to other agents with minimal changes. The source is public and available to download from GitHub.
 
 ## Available Skills
 
 - [Asana Small Task Writer](asana-small-task-writer.md)
+- [Download the source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/asana-small-task-writer)
