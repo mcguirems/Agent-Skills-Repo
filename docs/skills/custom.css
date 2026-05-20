@@ -111,6 +111,7 @@ a:hover {
 
 #mdxpage {
   color: var(--fs-text) !important;
+  font-family: var(--fs-mono) !important;
 }
 
 #mdxpage p,
@@ -191,6 +192,14 @@ a:hover {
 #mdxpage pre,
 #mdxpage kbd,
 #mdxpage samp {
+  font-family: var(--fs-mono) !important;
+}
+
+#mdxpage a,
+#mdxpage ul,
+#mdxpage ol,
+#mdxpage li,
+#mdxpage p {
   font-family: var(--fs-mono) !important;
 }
 
