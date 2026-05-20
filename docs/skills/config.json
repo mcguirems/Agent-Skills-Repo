@@ -1,11 +1,8 @@
 {
   "_deploy_hint": "force-refresh-2026-05-20",
   "nav": {
-    "links": [
-      {
-        "href": "/",
-        "name": "Skills"
-      }
-    ]
+    "title": "JUAREZ AGENT SKILLS REPO",
+    "logo": "/brain.svg",
+    "links": []
   }
 }
