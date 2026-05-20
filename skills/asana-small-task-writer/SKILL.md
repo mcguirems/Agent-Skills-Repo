@@ -165,3 +165,11 @@ This skill is based on the canonical guidance and examples in:
 - `references/source-instructions.md`
 - `references/example-1.md`
 - `references/example-2.md`
+
+## Published Source Links
+
+When this skill is published to Flowershow, include a visible `SOURCE:` block near the top of the page with:
+- a GitHub folder link to the skill source
+- a direct raw `SKILL.md` link
+
+Keep those links visible so the skill can be downloaded or adapted by other agents.
