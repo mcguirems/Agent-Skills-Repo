@@ -18,7 +18,7 @@ html,
 body {
   background: var(--fs-bg) !important;
   color: var(--fs-text) !important;
-  font-family: var(--fs-sans) !important;
+  font-family: var(--fs-mono) !important;
   font-size: 14px !important;
   line-height: 24px !important;
   font-weight: 430 !important;
@@ -91,7 +91,7 @@ a:hover {
 
 .page-header-title,
 #mdxpage h1 {
-  font-family: var(--fs-sans) !important;
+  font-family: var(--fs-mono) !important;
   font-size: clamp(1.5rem, 3vw, 1.95rem) !important;
   line-height: 1.2 !important;
   font-weight: 500 !important;
@@ -132,7 +132,7 @@ a:hover {
 #mdxpage h4,
 #mdxpage h5,
 #mdxpage h6 {
-  font-family: var(--fs-sans) !important;
+  font-family: var(--fs-mono) !important;
   font-weight: 500 !important;
   text-transform: uppercase;
   letter-spacing: 0.02em !important;
