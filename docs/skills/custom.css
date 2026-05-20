@@ -141,9 +141,10 @@ a:hover {
 }
 
 #mdxpage h2 {
-  font-size: 1rem !important;
+  font-size: 1.08rem !important;
   line-height: 1.35 !important;
   margin: 2.8rem 0 0.7rem !important;
+  font-weight: 600 !important;
 }
 
 #mdxpage h3,
@@ -204,8 +205,8 @@ a:hover {
 }
 
 #mdxpage code {
-  background: rgba(17, 17, 17, 0.08) !important;
-  color: #faf9f7 !important;
+  background: rgba(17, 17, 17, 0.82) !important;
+  color: #ffffff !important;
   border-radius: 3px !important;
   padding: 0.1rem 0.28rem !important;
   font-size: 0.9em !important;
