@@ -71,6 +71,7 @@ a:hover {
   column-gap: 1.5rem !important;
   align-items: flex-start;
   justify-content: center !important;
+  transform: translateX(-6ch) !important;
 }
 
 .layout-inner-left {
@@ -325,6 +326,16 @@ a:hover {
   margin-top: 3rem !important;
 }
 
+.site-footer-inner {
+  max-width: calc(30ch + 1.5rem + 66ch) !important;
+  margin: 0 auto !important;
+  transform: translateX(-6ch) !important;
+}
+
+.site-footer-content-grid {
+  margin-left: calc(30ch + 1.5rem) !important;
+}
+
 .site-footer-copyright {
   font-size: 12px !important;
   line-height: 20px !important;
@@ -339,6 +350,7 @@ a:hover {
   .layout-inner {
     display: block !important;
     column-gap: 0 !important;
+    transform: none !important;
   }
 
   .layout-inner-left {
@@ -357,5 +369,14 @@ a:hover {
 
   .site-sidebar {
     padding-top: 1rem !important;
+  }
+
+  .site-footer-inner {
+    transform: none !important;
+    max-width: none !important;
+  }
+
+  .site-footer-content-grid {
+    margin-left: 0 !important;
   }
 }
