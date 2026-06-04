@@ -20,6 +20,14 @@ Preserve the folder name exactly and keep these contents together:
 3. Confirm that `SKILL.md` is at `.../skill-repo-publisher/SKILL.md`.
 4. Restart or refresh the agent if the skill does not appear immediately.
 
+## Recommended Use
+
+Run this skill from inside the `000-skills-repo` workspace.
+At the start of the run, provide the full local path to the source skill directory that should be imported.
+After packaging is complete, the skill should ask:
+1. `Publish now`
+2. `Stop now`
+
 ## Common Install Locations
 
 ### Codex

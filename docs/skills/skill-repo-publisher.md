@@ -12,15 +12,17 @@ SOURCE:
 
 ## Purpose
 
-`skill-repo-publisher` takes an existing source skill from another folder, copies it into this repo as a transportable canonical package, and generates the public documentation and download assets needed for publication.
+`skill-repo-publisher` takes an existing source skill from another local folder, copies it into this repo as a transportable canonical package, and generates the public documentation and download assets needed for publication.
 
 ## When To Use
 
 Use this skill when you need to:
+- start from inside `000-skills-repo`
 - import a skill from another local folder
 - normalize it for portability inside this repo
 - create or update the matching Flowershow page
 - build a one-click downloadable `.zip`
+- decide at the end between `1. Publish now` and `2. Stop now`
 
 ## When Not To Use
 
@@ -34,6 +36,9 @@ The skill is designed to produce:
 2. a rebuilt `.zip` inside that skill folder
 3. a public Flowershow page under `docs/skills/<slug>.md`
 4. an updated entry on the public skills index
+5. a final numbered choice after the file prep is complete:
+   - `1. Publish now`
+   - `2. Stop now`
 
 ## Included Files
 
@@ -43,6 +48,6 @@ The skill is designed to produce:
 
 ## Example Requests
 
-- “Package this local skill into the skills repo.”
-- “Make this skill transportable and create the public Flowershow page.”
-- “Import this source skill, rebuild the zip, and add the page to the index.”
+- “From this repo, import a local skill folder and package it.”
+- “Ask me for the source directory, then make this skill transportable and create the public Flowershow page.”
+- “Import this source skill, rebuild the zip, add the page to the index, then ask whether to publish.”
