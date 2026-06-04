@@ -11,5 +11,6 @@ These are small, focused skill packages for Codex. Each one turns a specific tas
 ## Available Skills
 
 - [Asana Small Task Writer](asana-small-task-writer.md)
+- [MyVeloFit Project Brief Creator](mvf-project-brief-creator.md)
 - [MyVeloFit Working Backwards Brief](mvf-working-backwards-brief.md)
 - [Skill Repo Publisher](skill-repo-publisher.md)
