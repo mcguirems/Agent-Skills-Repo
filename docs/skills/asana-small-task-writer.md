@@ -6,6 +6,7 @@ status: active
 # Asana Small Task Writer
 
 SOURCE:
+- [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/asana-small-task-writer/asana-small-task-writer.zip)
 - [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/asana-small-task-writer)
 - [Direct `SKILL.md`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/asana-small-task-writer/SKILL.md)
 
@@ -50,10 +51,15 @@ If key information is missing, it adds a `Questions / Clarifications` section af
 - `SKILL.md`
 - `README.md`
 - `Install-this-skill.md`
+- `asana-small-task-writer.zip`
 - `references/source-guide.md`
 - `references/source-instructions.md`
 - `references/example-1.md`
 - `references/example-2.md`
+
+## Installation Notes
+
+The packaged `.zip` is the preferred download for moving this skill into another LLM or agent environment because it preserves the full folder structure in one file.
 
 ## Canonical Runtime Location
 

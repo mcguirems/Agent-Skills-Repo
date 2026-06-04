@@ -11,3 +11,4 @@ These are small, focused skill packages for Codex. Each one turns a specific tas
 ## Available Skills
 
 - [Asana Small Task Writer](asana-small-task-writer.md)
+- [Skill Repo Publisher](skill-repo-publisher.md)

@@ -1,3 +1,8 @@
+---
+name: asana-small-task-writer
+description: Use when the user wants help turning one already-scoped product, UX, UI, behavior, navigation, accessibility, or polish request into a single implementation-ready Asana small task with testable acceptance criteria and explicit constraints.
+---
+
 # Asana Small Task Writer
 
 Use this skill when the user wants help turning a scoped product, UX, UI, behavior, navigation, accessibility, or polish request into one implementation-ready Asana small task.
@@ -165,11 +170,3 @@ This skill is based on the canonical guidance and examples in:
 - `references/source-instructions.md`
 - `references/example-1.md`
 - `references/example-2.md`
-
-## Published Source Links
-
-When this skill is published to Flowershow, include a visible `SOURCE:` block near the top of the page with:
-- a GitHub folder link to the skill source
-- a direct raw `SKILL.md` link
-
-Keep those links visible so the skill can be downloaded or adapted by other agents.
