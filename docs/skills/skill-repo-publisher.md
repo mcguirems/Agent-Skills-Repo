@@ -40,6 +40,10 @@ The skill is designed to produce:
    - `1. Publish now`
    - `2. Stop now`
 
+## Flowershow Publishing
+
+This skill assumes this repo uses Git-based Flowershow publishing: generated Markdown pages live under `docs/`, and the normal publish path is to commit and push the repo changes so the connected Flowershow site can rebuild. The skill should not run `fl` CLI commands unless the user explicitly says this repo is published through the Flowershow CLI.
+
 ## Included Files
 
 - `SKILL.md`

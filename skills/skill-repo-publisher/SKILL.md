@@ -32,6 +32,12 @@ If the source path is missing, stop and request it before doing any packaging wo
 - Update only this repo's files for Git tracking and publishing.
 - Do not silently publish to Git or Flowershow at the end.
 
+## Flowershow Publishing Assumption
+
+This repo is prepared for Git-based Flowershow publishing: generated pages live under `docs/`, and publishing normally happens by committing and pushing repo changes, after which Flowershow rebuilds or syncs from the connected repository.
+
+Do not run `fl` CLI commands unless the user explicitly says this repo is published through the Flowershow CLI. If the publishing method is unclear at the final publish step, ask whether this repo is connected to Flowershow through GitHub or requires a manual or CLI sync.
+
 ## Required Workflow
 
 Follow this order:
@@ -59,13 +65,13 @@ Follow this order:
    - `1. Publish now`
    - `2. Stop now`
 16. Explain the consequence of each option briefly:
-   - `Publish now` means commit, push, and then tell the user to sync Flowershow if needed
+   - `Publish now` means commit and push the repo changes. If the Flowershow site is GitHub-connected, Flowershow should rebuild from the pushed commit; otherwise, tell the user exactly what manual or CLI sync step is still needed
    - `Stop now` means leave the repo changes prepared but uncommitted
 17. If the answer is `1. Publish now`:
    - prepare the repo diff for commit
    - commit
    - push
-   - tell the user to run or confirm the Flowershow sync if that step is not automated in the environment
+   - if the Flowershow site is not GitHub-connected, tell the user to run or confirm the required manual or CLI sync
 18. If the answer is `2. Stop now`:
    - do not commit or push
    - leave the repo changes ready for review
