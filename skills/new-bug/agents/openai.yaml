@@ -1,0 +1,21 @@
+interface:
+  display_name: New Bug
+  short_description: Find Slack bugs and add them to project 021
+  default_prompt: Use $new-bug to find or create an untriaged 021 bug task from Slack.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+dependencies:
+  tools:
+  - type: mcp
+    value: slack
+    description: Read the source Slack thread and supporting evidence
+  - type: mcp
+    value: asana
+    description: Create the standardized intake task in project 021
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

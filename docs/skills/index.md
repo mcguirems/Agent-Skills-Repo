@@ -15,4 +15,5 @@ These are small, focused skill packages for Codex. Each one turns a specific tas
 - [MVF Project Registry](mvf-project-registry.md)
 - [MyVeloFit Project Brief Creator](mvf-project-brief-creator.md)
 - [MyVeloFit Working Backwards Brief](mvf-working-backwards-brief.md)
+- [New Bug](new-bug.md)
 - [Skill Repo Publisher](skill-repo-publisher.md)
