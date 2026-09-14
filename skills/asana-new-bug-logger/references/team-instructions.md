@@ -1,8 +1,8 @@
-# New Bug Skill — Team Instructions v1
+# Asana New Bug Logger — Team Instructions v1
 
 ## Purpose
 
-Use `$new-bug` in ChatGPT to turn Slack bug reports into standardized, untriaged tasks in **021 — Product Bugs and Changes**.
+Use `$asana-new-bug-logger` in ChatGPT to turn Slack bug reports into standardized, untriaged tasks in **021 — Product Bugs and Changes**.
 
 The skill checks project 021 for existing reports before creating a task. It does not scope the solution or create a development task in project 101.
 
@@ -10,7 +10,7 @@ The skill checks project 021 for existing reports before creating a task. It doe
 
 You need:
 
-1. Access to the shared **New Bug** skill in ChatGPT.
+1. Access to the shared **Asana New Bug Logger** skill in ChatGPT.
 2. A connected Slack account with access to the relevant conversation.
 3. A connected Asana account with access to project 021.
 
@@ -20,7 +20,7 @@ Run the skill from **ChatGPT**. It cannot currently be triggered by mentioning `
 
 Copy the Slack message or thread link and enter:
 
-> `$new-bug [Slack link]`
+> `$asana-new-bug-logger [Slack link]`
 
 The skill will:
 
@@ -36,7 +36,7 @@ If the bug already exists, no task will be created. The skill will return the ex
 
 Enter:
 
-> `$new-bug`
+> `$asana-new-bug-logger`
 
 The skill will:
 

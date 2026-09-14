@@ -1,7 +1,7 @@
 interface:
-  display_name: New Bug
+  display_name: Asana New Bug Logger
   short_description: Find Slack bugs and add them to project 021
-  default_prompt: Use $new-bug to find or create an untriaged 021 bug task from Slack.
+  default_prompt: Use $asana-new-bug-logger to find or create an untriaged 021 bug task from Slack.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 dependencies:

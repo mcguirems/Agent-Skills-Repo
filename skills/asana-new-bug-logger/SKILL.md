@@ -1,9 +1,9 @@
 ---
-name: new-bug
-description: Find or convert a MyVeloFit Slack message or thread reporting a product, UX, UI, website, mobile, or B2B bug into a standardized untriaged task in Asana project 021. Use when someone invokes new-bug, provides a Slack link to log, or asks to find recent Slack discussions that could become bugs. Do not use to scope the fix, propose a solution, create the later development task, or add work to project 101.
+name: asana-new-bug-logger
+description: Find or convert a MyVeloFit Slack message or thread reporting a product, UX, UI, website, mobile, or B2B bug into a standardized untriaged task in Asana project 021. Use when someone invokes asana-new-bug-logger, provides a Slack link to log, or asks to find recent Slack discussions that could become bugs. Do not use to scope the fix, propose a solution, create the later development task, or add work to project 101.
 ---
 
-# New Bug
+# Asana New Bug Logger
 
 Create a faithful intake record from the Slack evidence. Keep intake separate from Mike's later triage and the Asana Small Task Writer workflow.
 

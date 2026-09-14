@@ -6,17 +6,17 @@ status: active
 # Asana New Bug Logger
 
 SOURCE:
-- [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/new-bug/new-bug.zip)
-- [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/new-bug)
-- [Direct `SKILL.md`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/new-bug/SKILL.md)
+- [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/asana-new-bug-logger/asana-new-bug-logger.zip)
+- [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/asana-new-bug-logger)
+- [Direct `SKILL.md`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/asana-new-bug-logger/SKILL.md)
 
 ## Purpose
 
-`new-bug` finds or converts MyVeloFit Slack reports into standardized untriaged bug intake tasks in Asana project 021.
+`asana-new-bug-logger` finds or converts MyVeloFit Slack reports into standardized untriaged bug intake tasks in Asana project 021.
 
 ## When To Use
 
-Use this skill when the user invokes `$new-bug`, provides a Slack message or thread link to log, or asks to find recent Slack discussions that could become bugs.
+Use this skill when the user invokes `$asana-new-bug-logger`, provides a Slack message or thread link to log, or asks to find recent Slack discussions that could become bugs.
 
 Good fits include:
 - logging a specific Slack report as a bug
@@ -51,7 +51,7 @@ It preserves the Slack permalink and records only facts supported by the Slack e
 - `SKILL.md`
 - `README.md`
 - `Install-this-skill.md`
-- `new-bug.zip`
+- `asana-new-bug-logger.zip`
 - `agents/openai.yaml`
 - `assets/icon.png`
 - `assets/icon.svg`
@@ -64,10 +64,10 @@ The packaged `.zip` is the preferred download for moving this skill into another
 
 ## Canonical Runtime Location
 
-- `skills/new-bug/SKILL.md`
+- `skills/asana-new-bug-logger/SKILL.md`
 
 ## Example Requests
 
-- `$new-bug [Slack link]`
-- `$new-bug`
+- `$asana-new-bug-logger [Slack link]`
+- `$asana-new-bug-logger`
 - “Create a bug from this Slack thread.”
