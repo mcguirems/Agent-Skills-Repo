@@ -1,0 +1,14 @@
+interface:
+  display_name: Skills Website Publisher
+  short_description: Build and publish skill documentation sites
+  default_prompt: Use $skills-website-publisher to build and publish a website for
+    my completed skill.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

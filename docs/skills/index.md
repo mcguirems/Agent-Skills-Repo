@@ -17,3 +17,4 @@ These are small, focused skill packages for Codex. Each one turns a specific tas
 - [MyVeloFit Working Backwards Brief](mvf-working-backwards-brief.md)
 - [Asana New Bug Logger](new-bug.md)
 - [Skill Repo Publisher](skill-repo-publisher.md)
+- [Skills Website Publisher](skills-website-publisher.md)
