@@ -1,9 +1,9 @@
 ---
-title: New Bug
+title: Asana New Bug Logger
 status: active
 ---
 
-# New Bug
+# Asana New Bug Logger
 
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/new-bug/new-bug.zip)
