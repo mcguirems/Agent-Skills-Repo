@@ -1,11 +1,10 @@
 ---
 title: MyVeloFit Project Brief Creator
+description: "Last updated: June 4, 2026"
 status: active
 ---
 
 # MyVeloFit Project Brief Creator
-
-_Last updated: June 4, 2026_
 
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/mvf-project-brief-creator/mvf-project-brief-creator.zip)

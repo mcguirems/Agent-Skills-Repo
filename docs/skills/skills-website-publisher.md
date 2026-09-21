@@ -1,11 +1,10 @@
 ---
 title: Skills Website Publisher
+description: "Last updated: September 21, 2026"
 status: active
 ---
 
 # Skills Website Publisher
-
-_Last updated: September 21, 2026_
 
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/skills-website-publisher/skills-website-publisher.zip)

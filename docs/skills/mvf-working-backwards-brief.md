@@ -1,11 +1,10 @@
 ---
 title: MyVeloFit Working Backwards Brief
+description: "Last updated: June 4, 2026"
 status: active
 ---
 
 # MyVeloFit Working Backwards Brief
-
-_Last updated: June 4, 2026_
 
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/mvf-working-backwards-brief/mvf-working-backwards-brief.zip)

@@ -1,11 +1,10 @@
 ---
 title: Asana New Bug Logger
+description: "Last updated: September 14, 2026"
 status: active
 ---
 
 # Asana New Bug Logger
-
-_Last updated: September 14, 2026_
 
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/asana-new-bug-logger/asana-new-bug-logger.zip)

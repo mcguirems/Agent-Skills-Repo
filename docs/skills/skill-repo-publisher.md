@@ -1,11 +1,10 @@
 ---
 title: Skill Repo Publisher
+description: "Last updated: September 21, 2026"
 status: active
 ---
 
 # Skill Repo Publisher
-
-_Last updated: September 21, 2026_
 
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/skill-repo-publisher/skill-repo-publisher.zip)

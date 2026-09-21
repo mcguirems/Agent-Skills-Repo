@@ -1,11 +1,10 @@
 ---
 title: MVF Project Registry
+description: "Last updated: July 9, 2026"
 status: active
 ---
 
 # MVF Project Registry
-
-_Last updated: July 9, 2026_
 
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/mvf-project-registry/mvf-project-registry.zip)

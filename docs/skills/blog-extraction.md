@@ -1,11 +1,10 @@
 ---
 title: Blog Extraction
+description: "Last updated: July 28, 2026"
 status: active
 ---
 
 # Blog Extraction
-
-_Last updated: July 28, 2026_
 
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/blog-extraction/blog-extraction.zip)

@@ -1,11 +1,10 @@
 ---
 title: Asana Small Task Writer
+description: "Last updated: June 4, 2026"
 status: active
 ---
 
 # Asana Small Task Writer
-
-_Last updated: June 4, 2026_
 
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/asana-small-task-writer/asana-small-task-writer.zip)
