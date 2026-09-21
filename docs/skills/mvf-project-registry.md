@@ -5,6 +5,8 @@ status: active
 
 # MVF Project Registry
 
+_Last updated: July 9, 2026_
+
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/mvf-project-registry/mvf-project-registry.zip)
 - [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/mvf-project-registry)

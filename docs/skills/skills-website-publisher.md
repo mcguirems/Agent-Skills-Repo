@@ -5,6 +5,8 @@ status: active
 
 # Skills Website Publisher
 
+_Last updated: September 21, 2026_
+
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/skills-website-publisher/skills-website-publisher.zip)
 - [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/skills-website-publisher)

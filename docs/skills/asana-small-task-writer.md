@@ -5,6 +5,8 @@ status: active
 
 # Asana Small Task Writer
 
+_Last updated: June 4, 2026_
+
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/asana-small-task-writer/asana-small-task-writer.zip)
 - [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/asana-small-task-writer)

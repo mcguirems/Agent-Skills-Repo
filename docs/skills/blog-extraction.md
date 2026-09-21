@@ -5,6 +5,8 @@ status: active
 
 # Blog Extraction
 
+_Last updated: July 28, 2026_
+
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/blog-extraction/blog-extraction.zip)
 - [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/blog-extraction)

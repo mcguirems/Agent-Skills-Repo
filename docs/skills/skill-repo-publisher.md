@@ -5,6 +5,8 @@ status: active
 
 # Skill Repo Publisher
 
+_Last updated: September 21, 2026_
+
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/skill-repo-publisher/skill-repo-publisher.zip)
 - [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/skill-repo-publisher)
@@ -34,7 +36,7 @@ The skill is designed to produce:
 
 1. a canonical repo copy under `skills/<slug>/`
 2. a rebuilt `.zip` inside that skill folder
-3. a public Flowershow page under `docs/skills/<slug>.md`
+3. a public Flowershow page under `docs/skills/<slug>.md` with a visible last-updated date
 4. an updated entry on the public skills index
 5. a final numbered choice after the file prep is complete:
    - `1. Publish now`

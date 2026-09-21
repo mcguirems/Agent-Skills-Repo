@@ -57,7 +57,7 @@ Follow this order:
    - `Install-this-skill.md`
    - `references/` and other required support files
 11. Build `<slug>.zip` inside the skill folder.
-12. Create or update `docs/skills/<slug>.md`.
+12. Create or update `docs/skills/<slug>.md`, including a visible `_Last updated: Month D, YYYY_` line directly below the page title. Use the date of the material skill or public-page revision being published; do not replace older dates during unrelated batch or formatting work.
 13. Add the skill to `docs/skills/index.md`.
 14. Show the changed files and summarize what was prepared.
 15. Ask one final question in this exact format:
@@ -96,6 +96,12 @@ Every published skill page must include a visible `SOURCE:` block near the top w
 - a GitHub folder link
 - a direct raw `SKILL.md` link
 
+Directly below the page's `#` title and above the `SOURCE:` block, include an italicized line in this exact format:
+
+`_Last updated: Month D, YYYY_`
+
+For a new skill, use its publication date. For an updated skill, use the date of the material package or public-page revision being published. Do not change the date for unrelated formatting or batch-maintenance edits.
+
 The page should also describe:
 - what the skill does
 - when to use it
@@ -127,7 +133,7 @@ Git publish is an explicit final branch, not an implicit default.
 The task is complete only when:
 - the canonical repo copy is self-contained
 - the zip artifact is rebuilt
-- the public page includes the download and source links
+- the public page includes the visible last-updated date, download link, and source links
 - the landing page lists the skill
 - the user has either:
   - chosen to stop with the repo changes prepared, or

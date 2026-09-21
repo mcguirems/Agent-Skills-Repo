@@ -5,6 +5,8 @@ status: active
 
 # MyVeloFit Working Backwards Brief
 
+_Last updated: June 4, 2026_
+
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/mvf-working-backwards-brief/mvf-working-backwards-brief.zip)
 - [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/mvf-working-backwards-brief)

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-`skill-repo-publisher` imports an existing skill from another local folder into this repo, normalizes it into a portable package, creates the public Flowershow page, and builds the installable `.zip`.
+`skill-repo-publisher` imports an existing skill from another local folder into this repo, normalizes it into a portable package, creates the public Flowershow page with a visible last-updated date, and builds the installable `.zip`.
 
 ## When To Use
 

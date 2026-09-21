@@ -5,6 +5,8 @@ status: active
 
 # Asana New Bug Logger
 
+_Last updated: September 14, 2026_
+
 SOURCE:
 - [Download the installable `.zip`](https://raw.githubusercontent.com/mcguirems/Agent-Skills-Repo/main/skills/asana-new-bug-logger/asana-new-bug-logger.zip)
 - [Download the skill source on GitHub](https://github.com/mcguirems/Agent-Skills-Repo/tree/main/skills/asana-new-bug-logger)
