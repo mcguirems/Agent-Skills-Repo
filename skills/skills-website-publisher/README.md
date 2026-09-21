@@ -2,7 +2,7 @@
 
 `skills-website-publisher` builds a standalone Netlify documentation website for an existing ChatGPT or Codex skill.
 
-It packages a complete static site with overview, usage instructions, team instructions, a creation article, a validated skill download, and the technical editorial visual system bundled with this package.
+It packages a complete static site with an overview and Quick Start invocation, usage instructions, team instructions, a creation article, a validated skill download, and the technical editorial visual system bundled with this package.
 
 ## When to use it
 

@@ -8,10 +8,11 @@ The overview page contains:
 
 1. Sticky navigation with icon, skill name, Overview, How to use, Team instructions, and How I created this.
 2. Hero with eyebrow, large title, short description, icon, primary download button, and secondary instructions button.
-3. A two-card operating-mode section when the skill has distinct modes; otherwise use the closest meaningful two-part workflow.
-4. Three capability cards.
-5. A final human-in-the-loop or next-step card.
-6. Compact footer attribution.
+3. A compact Quick Start block directly below the hero buttons.
+4. A two-card operating-mode section when the skill has distinct modes; otherwise use the closest meaningful two-part workflow.
+5. Three capability cards.
+6. A final human-in-the-loop or next-step card.
+7. Compact footer attribution.
 
 The instruction pages use `.article` for a readable single-column layout. Use `.code` for commands and `.note` for warnings or manual handoffs.
 
@@ -22,6 +23,7 @@ The instruction pages use `.article` for a readable single-column layout. Use `.
 - Link both pages in primary navigation.
 - Provide the Markdown files as downloads when useful.
 - Keep overview copy short; put detailed explanation in the article pages.
+- Format Quick Start consistently with the heading `Quick Start` and one sentence: `Use $<skill-name> in ChatGPT to <short explanation of what the skill does>.`
 
 ## Styling
 

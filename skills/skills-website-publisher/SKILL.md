@@ -17,7 +17,7 @@ Ask whether the user has an icon. If they do, use it. If they do not, offer to c
 
 Create a maintainable static site project containing:
 
-- `index.html` — summary, value proposition, operating modes, capabilities, and download CTA.
+- `index.html` — summary, value proposition, download CTA, Quick Start invocation, operating modes, and capabilities.
 - `how-to-use.html` — rendered from `how-to-use-this-skill.md`.
 - `team-instructions.html` — rendered from `team-instructions.md`.
 - `how-i-created-this.html` — detailed article describing the decisions, workflow, safeguards, testing, and reusable lessons behind the skill.
@@ -36,6 +36,8 @@ Derive claims from the target skill. Do not invent capabilities, permissions, in
 Keep `how-to-use-this-skill.md` practical and complete. Include prerequisites, invocation examples, operating modes, expected results, manual follow-up, limitations, and troubleshooting when relevant.
 
 Keep `team-instructions.md` brief and shareable. Include what the skill does, how to start it, the most common usage modes, what happens next, and any required human review.
+
+Every overview page must include a compact Quick Start block directly below the hero actions. Use the heading `Quick Start` and one sentence in this format: `Use $<skill-name> in ChatGPT to <short explanation of what the skill does>.`
 
 Write “How I created this” as a detailed but readable case study. Explain the problem, requirements, workflow design, duplicate or safety controls, human handoffs, testing, iteration, packaging, and publication. Never expose secrets, private messages, customer data, or internal credentials.
 

@@ -14,7 +14,7 @@ SOURCE:
 
 `skills-website-publisher` builds and publishes a standalone Netlify documentation website for an existing ChatGPT or Codex skill.
 
-The generated site explains what the target skill does, how to use it, how it was created, what humans still need to review, and where to download a reusable skill package.
+The generated site explains what the target skill does, gives readers a compact Quick Start invocation, documents how to use it and how it was created, identifies what humans still need to review, and provides a reusable skill download.
 
 ## When To Use
 
@@ -36,7 +36,7 @@ Do not use it to publish private credentials, internal customer data, local-only
 
 The skill is designed to produce a static site project containing:
 
-1. `index.html`
+1. `index.html` with a summary, download actions, Quick Start invocation, operating modes, and capabilities
 2. `how-to-use.html`
 3. `team-instructions.html`
 4. `how-i-created-this.html`
