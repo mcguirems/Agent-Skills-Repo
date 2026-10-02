@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVF SVG Icon Converter"
+  short_description: "Convert SVG icons to nine MVF color variants"
+  default_prompt: "Use $svg-icon-converter to convert the attached SVG into the nine required variants."

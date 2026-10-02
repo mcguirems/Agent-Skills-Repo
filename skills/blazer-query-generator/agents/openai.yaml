@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blazer Query Generator"
+  short_description: "Draft PostgreSQL from current private schema context"
+  default_prompt: "Use $blazer-query-generator to draft a query using the current authorized schema."
