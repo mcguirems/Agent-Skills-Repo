@@ -18,5 +18,6 @@ These are small, focused skill packages for Codex. Each one turns a specific tas
 - [Asana New Bug Logger](asana-new-bug-logger.md)
 - [Skill Repo Publisher](skill-repo-publisher.md)
 - [Skills Website Publisher](skills-website-publisher.md)
+- [Weekly Activity Summary](weekly-activity-summary.md)
 - [MVF SVG Icon Converter](svg-icon-converter.md)
 - [Blazer Query Generator](blazer-query-generator.md)

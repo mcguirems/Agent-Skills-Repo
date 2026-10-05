@@ -1,0 +1,14 @@
+interface:
+  display_name: Weekly Activity Summary
+  short_description: Create weekly work summaries and Asana status updates
+  default_prompt: Use $weekly-activity-summary to summarize my work and investigations
+    from last week and save the standup Markdown file.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
