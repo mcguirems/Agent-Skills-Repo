@@ -12,6 +12,7 @@ These are small, focused skill packages for Codex. Each one turns a specific tas
 
 - [Asana Small Task Writer](asana-small-task-writer.md)
 - [Blog Extraction](blog-extraction.md)
+- [Google Docs Global Styles](google-docs-global-styles.md)
 - [MVF Project Registry](mvf-project-registry.md)
 - [MyVeloFit Project Brief Creator](mvf-project-brief-creator.md)
 - [MyVeloFit Working Backwards Brief](mvf-working-backwards-brief.md)

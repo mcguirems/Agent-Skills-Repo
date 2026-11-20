@@ -1,0 +1,14 @@
+interface:
+  display_name: Google Docs Global Styles
+  short_description: Apply live template styles to every new Google Doc
+  default_prompt: Use $google-docs-global-styles to create a Google Doc using my current
+    Global Styles template.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
